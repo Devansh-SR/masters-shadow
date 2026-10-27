@@ -1,0 +1,47 @@
+﻿THRESHOLD = 0.643
+
+ score  result     question
+ 0.752  top1       [A] Is the hydraulic tank only there to store oil?
+ 0.633  abstain!   [A] Why should I care about a small drip from the tank?
+ 0.582  abstain!   [A] Is the standard silver cap on top of the tank good enough?
+ 0.732  top3       [A] What do scratches on the valve spool mean?
+ 0.808  top1       [A] How does the spool in the directional valve stay lubricated?
+ 0.694  miss       [A] Does the hydraulic fluid do anything besides carrying pressure in the valve?
+ 0.680  top1       [A] Why does the suction gauge read so high on a cold morning start?
+ 0.755  top1       [A] Can a wrong motor speed reduce the flow from the pump?
+ 0.680  top3       [A] What causes pitting on the inside of the pump ring?
+ 0.739  top3       [A] What are the brass parts spinning inside a piston pump?
+ 0.550  abstain    [U] How do I reset the PLC after a power cut?
+ 0.599  abstain    [U] What is the warranty period on the motor?
+ 0.518  abstain    [U] How do I log in to the maintenance software?
+ 0.564  abstain    [U] How do I replace the touchscreen on the control panel?
+ 0.606  abstain    [U] What voltage does the welding machine need?
+ 0.552  abstain    [U] How do I calibrate the barcode scanner at the packing station?
+ 0.533  abstain    [U] Who renews my forklift licence?
+ 0.501  abstain    [U] How do I update the Wi-Fi driver on the shop laptop?
+ 0.561  abstain    [U] What is the shift handover procedure?
+ 0.486  abstain    [U] How do I book annual leave?
+
+answerable: 10  top-1: 4  top-3: 7  wrongly abstained: 2
+unanswerable: 10  correctly abstained: 10
+median query time: 0.011s over 20 queries
+  window 1/16 (w00): 0 verified, 0 unverified
+  window 2/16 (w01): 1 verified, 0 unverified
+  window 3/16 (w02): 2 verified, 0 unverified
+  window 4/16 (w03): 1 verified, 2 unverified
+  window 5/16 (w04): 1 verified, 0 unverified
+  window 6/16 (w05): 0 verified, 3 unverified
+  window 7/16 (w06): 0 verified, 1 unverified
+  window 8/16 (w07): 0 verified, 1 unverified
+  window 9/16 (w08): 0 verified, 1 unverified
+  window 10/16 (w09): 0 verified, 1 unverified
+  window 11/16 (w10): 2 verified, 0 unverified
+  window 12/16 (w11): 2 verified, 0 unverified
+  window 13/16 (w12): 1 verified, 0 unverified
+  window 14/16 (w13): 2 verified, 0 unverified
+  window 15/16 (w14): 2 verified, 0 unverified
+  window 16/16 (w15): 1 verified, 1 unverified
+
+device=cpu compute=int8
+transcribe 96.3s  window 0.00s  structure 12.9s  embed 0.1s  total 109.3s
+segments: 103  windows: 16  records: 15 verified, 10 unverified

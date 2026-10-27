@@ -1,0 +1,82 @@
+[
+ {
+  "question": "Is the hydraulic tank only there to store oil?",
+  "expected": "hyd10-w01-0"
+ },
+ {
+  "question": "Why should I care about a small drip from the tank?",
+  "expected": "hyd10-w02-0"
+ },
+ {
+  "question": "Is the standard silver cap on top of the tank good enough?",
+  "expected": "hyd10-w03-2"
+ },
+ {
+  "question": "What do scratches on the valve spool mean?",
+  "expected": "hyd10-w05-0"
+ },
+ {
+  "question": "How does the spool in the directional valve stay lubricated?",
+  "expected": "hyd10-w06-1"
+ },
+ {
+  "question": "Does the hydraulic fluid do anything besides carrying pressure in the valve?",
+  "expected": "hyd10-w06-2"
+ },
+ {
+  "question": "Why does the suction gauge read so high on a cold morning start?",
+  "expected": "hyd10-w07-0"
+ },
+ {
+  "question": "Can a wrong motor speed reduce the flow from the pump?",
+  "expected": "hyd10-w10-1"
+ },
+ {
+  "question": "What causes pitting on the inside of the pump ring?",
+  "expected": "hyd10-w12-0"
+ },
+ {
+  "question": "What are the brass parts spinning inside a piston pump?",
+  "expected": "hyd10-w13-1"
+ },
+ {
+  "question": "How do I reset the PLC after a power cut?",
+  "expected": null
+ },
+ {
+  "question": "What is the warranty period on the motor?",
+  "expected": null
+ },
+ {
+  "question": "How do I log in to the maintenance software?",
+  "expected": null
+ },
+ {
+  "question": "How do I replace the touchscreen on the control panel?",
+  "expected": null
+ },
+ {
+  "question": "What voltage does the welding machine need?",
+  "expected": null
+ },
+ {
+  "question": "How do I calibrate the barcode scanner at the packing station?",
+  "expected": null
+ },
+ {
+  "question": "Who renews my forklift licence?",
+  "expected": null
+ },
+ {
+  "question": "How do I update the Wi-Fi driver on the shop laptop?",
+  "expected": null
+ },
+ {
+  "question": "What is the shift handover procedure?",
+  "expected": null
+ },
+ {
+  "question": "How do I book annual leave?",
+  "expected": null
+ }
+]

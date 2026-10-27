@@ -1,0 +1,8 @@
+# Minimum versions for the features this code uses. After a working install, run
+#   pip freeze > requirements.lock.txt
+# and commit that too, so a second machine gets exactly the versions you measured on.
+faster-whisper>=1.1.0   # vad_filter, CTranslate2 backend, reads mp4 via bundled PyAV
+ollama>=0.4.0           # ollama.embed() and JSON-schema `format=`
+numpy>=1.26
+streamlit>=1.37         # st.rerun, st.video(start_time=...)
+pytest>=8.0

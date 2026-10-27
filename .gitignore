@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+store/
+data/clips/
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.zip
+*.bundle
+*.bak

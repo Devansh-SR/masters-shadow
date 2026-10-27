@@ -1,0 +1,27 @@
+﻿THRESHOLD = 0.0
+
+ score  result     question
+ 0.676  top3       [A] Is the hydraulic tank only there to store oil?
+ 0.616  top1       [A] Why should I care about a small drip from the tank?
+ 0.515  miss       [A] Is the standard silver cap on top of the tank good enough?
+ 0.738  top3       [A] What do scratches on the valve spool mean?
+ 0.728  top3       [A] How does the spool in the directional valve stay lubricated?
+ 0.665  miss       [A] Does the hydraulic fluid do anything besides carrying pressure in the valve?
+ 0.567  top1       [A] Why does the suction gauge read so high on a cold morning start?
+ 0.681  top3       [A] Can a wrong motor speed reduce the flow from the pump?
+ 0.645  top3       [A] What causes pitting on the inside of the pump ring?
+ 0.695  miss       [A] What are the brass parts spinning inside a piston pump?
+ 0.526  ANSWERED!  [U] How do I reset the PLC after a power cut?
+ 0.565  ANSWERED!  [U] What is the warranty period on the motor?
+ 0.510  ANSWERED!  [U] How do I log in to the maintenance software?
+ 0.530  ANSWERED!  [U] How do I replace the touchscreen on the control panel?
+ 0.542  ANSWERED!  [U] What voltage does the welding machine need?
+ 0.522  ANSWERED!  [U] How do I calibrate the barcode scanner at the packing station?
+ 0.523  ANSWERED!  [U] Who renews my forklift licence?
+ 0.500  ANSWERED!  [U] How do I update the Wi-Fi driver on the shop laptop?
+ 0.523  ANSWERED!  [U] What is the shift handover procedure?
+ 0.497  ANSWERED!  [U] How do I book annual leave?
+
+answerable: 10  top-1: 2  top-3: 7  wrongly abstained: 0
+unanswerable: 10  correctly abstained: 0
+median query time: 0.010s over 20 queries
